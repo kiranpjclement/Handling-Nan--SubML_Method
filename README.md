@@ -5,5 +5,8 @@ Step1 -Created another train and predict data set  from the existing Training da
        First data set contain all the points with valid Age values (Data_with_Age)
        Second data set contains all the points with Null Age Value (Data_without_age)
 Step2 -Create a model using Data_with_Age.
-       Train a model with Age as target and remaining columns including survival, as features
+       Train a model with Age as target and remaining columns including survival, as features (Sbu_ML_model)
 Step3 -Use this trained model to predict the missing age values in original training Data.
+
+I have added an sample model just to demonstrate the flow, not aim to show the accuracy.
+Need to improve the sub_ML model to improve the Age prediction
