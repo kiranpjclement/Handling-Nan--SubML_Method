@@ -8,5 +8,7 @@ Step2 -Create a model using Data_with_Age.
        Train a model with Age as target and remaining columns including survival, as features (Sbu_ML_model)
 Step3 -Use this trained model to predict the missing age values in original training Data.
 
+Step4 -Then as usual the Aged filled data set is used to create the model for predict the Survival.
+
 I have added an sample model just to demonstrate the flow, not aim to show the accuracy.
 Need to improve the sub_ML model to improve the Age prediction
